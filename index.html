@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Animals </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="animals"> Les animaux de la Savane </h1>
+
+    <div class="ligne1">
+        <div class="cadre">
+          <img src="img/Lion.jpg" alt="Lion" >
+          <button type="button" name="button" onclick="lionSound()"> Lion </button>
+          <audio id="lion" src="sounds/lion.wav"></audio>
+        </div>
+
+        <div class="cadre">
+          <img src="img/Elephant.png" alt="Éléphant">
+          <button type="button" name="button" onclick="elephantSound()"> Éléphant </button>
+          <audio id="elephant" src="sounds/elephant.wav"></audio>
+        </div>
+
+        <div class="cadre">
+          <img src="img/Singe.jpg" alt="Singe">
+          <button type="button" name="button" on onclick="singeSound()"> Singe </button>
+          <audio id="singe" src="sounds/singe.wav"></audio>
+        </div>
+
+        <div class="cadre">
+          <img src="img/Leopard.jpg" alt="Léopard">
+          <button type="button" name="button" onclick="leopardSound()"> Leopard </button>
+          <audio id="leopard" src="sounds/leopard.wav"></audio>
+        </div>
+
+    </div>
+
+    <div class="ligne2">
+        <div class="cadre">
+          <img src="img/Rhinocéros.jpg" alt="Rhinocéros">
+          <button type="button" name="button" onclick="rhinosSound()"> Rhinocéros </button>
+          <audio id="rhinoceros" src="sounds/rhinos.wav"></audio>
+        </div>
+
+        <div class="cadre">
+          <img src="img/Hippopotame.jpg" alt="Hippopotame">
+          <button type="button" name="button" onclick="hippoSound()"> Hippopotame </button>
+          <audio id="hippopotame" src="sounds/hippopotame.wav"></audio>
+
+        </div>
+
+        <div class="cadre">
+          <img src="img/Toucan.jpg" alt="Toucan">
+          <button type="button" name="button" onclick="toucanSound()"> Toucan </button>
+          <audio id="toucan" src="sounds/toucan.wav"></audio>
+        </div>
+
+        <div class="cadre">
+          <img src="img/Crocodile.jpg" alt="Crocodile">
+          <button type="button" name="button" onclick="crocoSound()"> Crocodile </button>
+          <audio id="crocodile" src="sounds/crocodile.wav"></audio>
+        </div>
+
+    </div>
+  <script type="text/javascript" src="animals.js"></script>
+
+  </body>
+</html>
